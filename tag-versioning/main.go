@@ -49,4 +49,7 @@ func main() {
 	// found in the go.mod file
 	// not just versions can be specified, but commit as well
 
+	// keep window open
+	fmt.Println("Press Enter to exit...")
+	fmt.Scanln()
 }

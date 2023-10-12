@@ -19,7 +19,11 @@ func main() {
 	fmt.Printf("height: %v of type:  %T \n", height, height)
 	fmt.Printf("weight: %v of type:  %T \n", weight, weight)
 
-	address := "Upper Farborn Road 12, VA, United States"
+	address := "Upper Farborn Road 12, VA, United States \n"
 
 	fmt.Println(address)
+
+	// Keep the window open
+	fmt.Println("Press Enter to exit...")
+	fmt.Scanln()
 }

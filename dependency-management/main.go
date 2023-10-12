@@ -52,6 +52,11 @@ func main() {
 	// as you can see, file name is irrelevant for importing
 	// as it's all done through package name
 
-	fmt.Printf("Hello, %s %s", functions.FirsName, functions.LastName)
+	fmt.Printf("Hello, %s %s \n", functions.FirsName, functions.LastName)
+
+	// keep program running
+
+	fmt.Println("Press Enter to exit...")
+	fmt.Scanln()
 
 }

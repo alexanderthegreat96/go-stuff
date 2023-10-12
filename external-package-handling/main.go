@@ -30,4 +30,7 @@ func main() {
 	fmt.Println("Using BigBark function from puppy package: ", c)
 	fmt.Println("Using BigBarks function from puppy package: ", d)
 
+	// keep program running
+	fmt.Println("Press Enter to exit...")
+	fmt.Scanln()
 }

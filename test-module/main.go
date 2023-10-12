@@ -22,4 +22,7 @@ import (
 
 func main() {
 	fmt.Println("Hello world. This is the first test-module")
+
+	fmt.Println("Press Enter to exit...")
+	fmt.Scanln()
 }
