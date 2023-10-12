@@ -1,11 +1,7 @@
-github.com/alexanderthegreat96/dog v0.0.0-20231011193351-019599bfea72 h1:O+80QmTJphOWBEwHaBJol4bL5Pl/ue0yboK0lFkhb00=
-github.com/alexanderthegreat96/dog v0.0.0-20231011193351-019599bfea72/go.mod h1:7zli1qL49WNNVdRQrulQeYNoSF5JOX6COXlDl7hYI2s=
-github.com/alexanderthegreat96/puppy v0.0.0-20231011193758-37a5e72aa4ac h1:mjMuN3o4uC2je170Z25SWX+R5JJjRSEH+1L28k+kHg4=
-github.com/alexanderthegreat96/puppy v0.0.0-20231011193758-37a5e72aa4ac/go.mod h1:a7JvI267iKTkAYr/p/1eSRMAczGTKzesvG9bOpYO9/A=
-github.com/alexanderthegreat96/puppy v0.0.0-20231012112535-ce954b9ce619 h1:h1xp3tXYbO8foCtVIVqUmXYNevIpbTFSPYqZ3aXbC8c=
-github.com/alexanderthegreat96/puppy v0.0.0-20231012112535-ce954b9ce619/go.mod h1:44MXZrf3NIvTzBVc395/bEyFv+e2YD4YqbmQzcVyweY=
-github.com/alexanderthegreat96/puppy v0.0.0-20231012113702-a0438b24a481 h1:JVu2eiEdOT4nVqgD+5ZuxRst6yCMjBrbBuNvi5woD7A=
-github.com/alexanderthegreat96/puppy v0.0.0-20231012113702-a0438b24a481/go.mod h1:44MXZrf3NIvTzBVc395/bEyFv+e2YD4YqbmQzcVyweY=
+github.com/alexanderthegreat96/dog v1.0.0 h1:9vUhkfO5Ry8OwPf/WOSPixmgNeCOUEs1elFj6Pd7yCM=
+github.com/alexanderthegreat96/dog v1.0.0/go.mod h1:7zli1qL49WNNVdRQrulQeYNoSF5JOX6COXlDl7hYI2s=
+github.com/alexanderthegreat96/puppy v1.3.0 h1:hDvrvtTUs9JPiV/CXr2qLFuvSZZzCdYfSi5iUrrAHXQ=
+github.com/alexanderthegreat96/puppy v1.3.0/go.mod h1:9U9foHzFNgQR79n53bjlEKUz9PknBQRF3SCRCK/ZTgw=
 github.com/raja/argon2pw v1.0.1 h1:RIUM12+uQdj5/cWQLlEmZDD8xj5kQN1X9kTK0xfXjGQ=
 github.com/raja/argon2pw v1.0.1/go.mod h1:idX/fPqwjX31YMTF2iIpEpNApV2YbQhSFr4iIhJaqp4=
 golang.org/x/crypto v0.14.0 h1:wBqGXzWJW6m1XrIKlAH0Hs1JJ7+9KBwnIO8v66Q9cHc=

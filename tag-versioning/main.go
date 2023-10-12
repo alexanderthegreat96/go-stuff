@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"strings"
+
+	"github.com/alexanderthegreat96/puppy"
 )
 
 // initialize an array of 5 string elements
@@ -35,4 +37,16 @@ func main() {
 	fmt.Println("The commands we are going to use are: ")
 
 	to_lowercase(commands)
+
+	barkAt := puppy.BarkAt("Alex")
+
+	// using function from package that was tagged
+	fmt.Println(barkAt)
+
+	// when requiring packages
+	// a certain version can be specified in the go.mod file
+	// see the example
+	// found in the go.mod file
+	// not just versions can be specified, but commit as well
+
 }
