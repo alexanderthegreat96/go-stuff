@@ -43,4 +43,7 @@ func main() {
 	} else {
 		fmt.Println("Nothing to display here")
 	}
+
+	fmt.Println("Please press ENTER to exist!")
+	fmt.Scanln()
 }
