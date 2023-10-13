@@ -60,4 +60,7 @@ func main() {
 		fmt.Println("Subject is not hired or is short.")
 	}
 
+	fmt.Println("Press ENTER to exist...")
+	fmt.Scanln()
+
 }
