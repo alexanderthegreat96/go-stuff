@@ -1,3 +1,5 @@
+github.com/GaryBoone/GoDonut v0.0.0-20121014052155-af4192ceee2f h1:mfzw/IcImSj7LVsQVev4FUU+jWvj4Pa2QNjjqIy3LxQ=
+github.com/GaryBoone/GoDonut v0.0.0-20121014052155-af4192ceee2f/go.mod h1:aFluzU/w65iBx49lFtFih/4y0/EKJJetgNXyG8UgBWc=
 github.com/alexanderthegreat96/dog v1.0.0 h1:9vUhkfO5Ry8OwPf/WOSPixmgNeCOUEs1elFj6Pd7yCM=
 github.com/alexanderthegreat96/dog v1.0.0/go.mod h1:7zli1qL49WNNVdRQrulQeYNoSF5JOX6COXlDl7hYI2s=
 github.com/alexanderthegreat96/puppy v1.3.0 h1:hDvrvtTUs9JPiV/CXr2qLFuvSZZzCdYfSi5iUrrAHXQ=
@@ -8,3 +10,5 @@ golang.org/x/crypto v0.14.0 h1:wBqGXzWJW6m1XrIKlAH0Hs1JJ7+9KBwnIO8v66Q9cHc=
 golang.org/x/crypto v0.14.0/go.mod h1:MVFd36DqK4CsrnJYDkBA3VC4m2GkXAM0PvzMCn4JQf4=
 golang.org/x/sys v0.13.0 h1:Af8nKPmuFypiUBjVoU9V20FiaFXOcuZI21p0ycVYYGE=
 golang.org/x/sys v0.13.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/term v0.13.0 h1:bb+I9cTfFazGW51MZqBVmZy7+JEJMouUHTUSKVQLBek=
+golang.org/x/term v0.13.0/go.mod h1:LTmsnFJwVN6bCy1rVCoS+qHT1HhALEFxKncY3WNNh4U=
