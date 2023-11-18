@@ -1,27 +1,10 @@
 package main
 
 import (
-	"crypto/rand"
-	"encoding/base64"
 	"fmt"
+
+	"github.com/alexanderthegreat96/go-stuff/package-helpers/helpers"
 )
-
-// generates a random string
-func randomStringGenerator(len int) (string, error) {
-	// get some random bytes
-
-	randomBytes := make([]byte, len)
-	_, err := rand.Read(randomBytes)
-
-	if err != nil {
-		return "", err
-	}
-
-	// encode the random bytes
-	// to string
-	randomString := base64.URLEncoding.EncodeToString(randomBytes)
-	return randomString[:len], nil
-}
 
 func main() {
 	// slices are kind of like arrays
@@ -41,7 +24,7 @@ func main() {
 	slices = append(slices, "Mathew")
 
 	for i := 1; i < 15; i++ {
-		randomString, err := randomStringGenerator(7)
+		randomString, err := helpers.RandomStringGenerator(7)
 
 		if err != nil {
 			fmt.Println("Error generating random string. Error: ", err.Error())

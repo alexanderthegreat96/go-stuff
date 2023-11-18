@@ -14,7 +14,7 @@
 //              20121013      • upload to GitHub
 //
 // Source took from https://github.com/GaryBoone/GoDonut/blob/master/donut.go
-// fixed by me
+// fixed by alexanderthegreat96
 
 package donut
 

@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/alexanderthegreat96/go-stuff/initializers/donut"
+	"github.com/alexanderthegreat96/go-stuff/package-helpers/donut"
 )
 
 func init() {
