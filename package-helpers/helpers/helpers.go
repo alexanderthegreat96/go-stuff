@@ -86,3 +86,20 @@ func ReturnRandomWords(options ...int) (string, []string, error) {
 	return word, words, err
 
 }
+
+// Counts String Occurence
+// In Input Slice
+
+func CountOccurenceInSlice(inputSlice []string) (map[string]int, error) {
+	result := make(map[string]int)
+
+	if len(inputSlice) > 0 {
+		for _, string := range inputSlice {
+			result[string]++
+		}
+
+		return result, nil
+	}
+
+	return nil, errors.New("we got a problem, the input contains 0 elements")
+}
