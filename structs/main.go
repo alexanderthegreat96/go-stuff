@@ -51,6 +51,9 @@ func main() {
 		fmt.Println("- ", job)
 	}
 
+	// embedded structs
+	// struct within a struct
+
 	luxoft := []Person{{
 		FirstName:  "Popescu",
 		LastName:   "Alexandru",
@@ -100,6 +103,25 @@ func main() {
 			}
 		}
 	}
+
+	// annonymous structs
+	// basically
+	// we define a struct directly into the
+	// variable
+
+	annon := struct {
+		name    string
+		address string
+	}{
+		name:    "Marius",
+		address: "Near the plaza 123",
+	}
+
+	fmt.Printf("This is: %s and he lives at %s\n", annon.name, annon.address)
+
+	// This allows us to compose
+	// data on the fly, if we do not need
+	// the data model to be used multiple times
 
 	fmt.Println("Press ENTER to exit...")
 	fmt.Scanln()
