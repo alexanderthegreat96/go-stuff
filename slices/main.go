@@ -6,6 +6,14 @@ import (
 	"github.com/alexanderthegreat96/go-stuff/package-helpers/helpers"
 )
 
+// function for unfurling a slice
+// in a variatic function
+func greetPeople(names ...string) {
+	for _, name := range names {
+		fmt.Println("Hello, " + name)
+	}
+}
+
 func main() {
 	// slices are kind of like arrays
 	// but they get initialized without
@@ -101,6 +109,14 @@ func main() {
 	copy(new_slice, first_slice)
 
 	fmt.Printf("Copied %v to copy_slice and now copy_slice contains: %v \n", first_slice, new_slice)
+
+	// Unfurling a slice
+	// in other words
+	// dissasemblying a slice
+
+	unfurl := []string{"cars", "pencils", "windows", "data"}
+	fmt.Println("Unfurling a slice...")
+	greetPeople(unfurl...)
 
 	fmt.Println("Press ENTER to exit...")
 	fmt.Scanln()
