@@ -4,6 +4,7 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"errors"
+	"fmt"
 	randno "math/rand"
 	"strconv"
 )
@@ -102,4 +103,10 @@ func CountOccurenceInSlice(inputSlice []string) (map[string]int, error) {
 	}
 
 	return nil, errors.New("we got a problem, the input contains 0 elements")
+}
+
+// keeps the window open untill the user presses ENTER
+func Exit() {
+	fmt.Println("Press ENTER to exit...")
+	fmt.Scanln()
 }
