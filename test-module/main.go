@@ -9,6 +9,7 @@ import (
 // go env GOARCH GOOS
 
 // build commands
+
 // go build . //builds for the current architecture
 // bash commands
 // GOOS=darwin go build // mac

@@ -11,5 +11,6 @@ require (
 require (
 	github.com/alexanderthegreat96/dog v1.0.0 // indirect
 	golang.org/x/crypto v0.14.0 // indirect
+	golang.org/x/exp v0.0.0-20240103183307-be819d1f06fc // indirect
 	golang.org/x/sys v0.13.0 // indirect
 )
